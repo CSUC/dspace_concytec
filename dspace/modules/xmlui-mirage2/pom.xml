@@ -88,6 +88,7 @@
                                         <exclude>**/*.svg</exclude>
                                         <exclude>**/*.ttf</exclude>
                                         <exclude>**/*.woff</exclude>
+					<exclude>**/*.woff2</exclude>
                                         <exclude>**/*.eot</exclude>
                                         <exclude>**/*.xsl</exclude>
                                     </excludes>
@@ -105,6 +106,7 @@
                                         <include>**/*.svg</include>
                                         <include>**/*.ttf</include>
                                         <include>**/*.woff</include>
+					<exclude>**/*.woff2</exclude>
                                         <include>**/*.eot</include>
                                         <include>**/*.xsl</include>
                                     </includes>
