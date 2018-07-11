@@ -2547,7 +2547,16 @@
 <message key="xmlui.dri2xhtml.METS-1.0.item-cdu">Subject (CDU)</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-ispartof">Is part of</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-projectID">Grant agreement number</message>
+<message key="xmlui.ArtifactBrowser.Navigation.browse_type">Type</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.type">Type</message>
 
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.type">Type</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.type.column_heading">Type</message>
+
+<message key="xmlui.ArtifactBrowser.SimpleSearch.filter.type">Type</message>
+<message key="xmlui.ArtifactBrowser.SimpleSearch.filter.type">Filter</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_type">Type</message>
+<message key="xmlui.Discovery.AbstractSearch.type_type">Type</message>
 
 
 </catalogue>

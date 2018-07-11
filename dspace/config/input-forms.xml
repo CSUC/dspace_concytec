@@ -37,8 +37,20 @@
  <form-definitions>
 
    <form name="traditional">
-     <page number="1">
-       <field>
+      <page number="1">
+         <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>type</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Format del material a introduir</label>
+         <input-type value-pairs-name="common_types">dropdown</input-type>
+         <hint>Siusplau trii un valor del llistat</hint>
+         <required>Mandatory</required>
+         </field>
+       </page>
+       <page number="2">
+	<field>
          <dc-schema>dc</dc-schema>
          <dc-element>contributor</dc-element>
          <dc-qualifier>author</dc-qualifier>
@@ -90,6 +102,7 @@
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Publisher</label>
+         <type-bind>Imagen</type-bind>
          <input-type>onebox</input-type>
          <hint>Enter the name of the publisher of the previously issued instance of this item.</hint>
          <required></required>
@@ -127,17 +140,6 @@
          <input-type value-pairs-name="common_identifiers">qualdrop_value</input-type>
          <hint>If the item has any identification numbers or codes associated with
 it, please enter the types and the actual numbers or codes.</hint>
-         <required></required>
-       </field>
-
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>type</dc-element>
-         <dc-qualifier></dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>Type</label>
-         <input-type value-pairs-name="common_types">dropdown</input-type>
-         <hint>Select the type(s) of content of the item. To select more than one value in the list, you may have to hold down the "CTRL" or "Shift" key.</hint>
          <required></required>
        </field>
 
@@ -260,94 +262,30 @@ it, please enter the types and the actual numbers or codes.</hint>
      </pair>
    </value-pairs>
 
-   <value-pairs value-pairs-name="common_types" dc-term="type">
+   <value-pairs value-pairs-name="common_types" dc-term="type"> 
      <pair>
-       <displayed-value>Animation</displayed-value>
-       <stored-value>Animation</stored-value>
+       <displayed-value>Documento</displayed-value>
+       <stored-value>Documento</stored-value>
      </pair>
      <pair>
-       <displayed-value>Article</displayed-value>
-       <stored-value>Article</stored-value>
+       <displayed-value>Imagen</displayed-value>
+       <stored-value>Imagen</stored-value>
      </pair>
      <pair>
-       <displayed-value>Book</displayed-value>
-       <stored-value>Book</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>Book chapter</displayed-value>
-       <stored-value>Book chapter</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>Dataset</displayed-value>
-       <stored-value>Dataset</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>Learning Object</displayed-value>
-       <stored-value>Learning Object</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>Image</displayed-value>
-       <stored-value>Image</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>Image, 3-D</displayed-value>
-       <stored-value>Image, 3-D</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>Map</displayed-value>
-       <stored-value>Map</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>Musical Score</displayed-value>
-       <stored-value>Musical Score</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>Plan or blueprint</displayed-value>
-       <stored-value>Plan or blueprint</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>Preprint</displayed-value>
-       <stored-value>Preprint</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>Presentation</displayed-value>
-       <stored-value>Presentation</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>Recording, acoustical</displayed-value>
-       <stored-value>Recording, acoustical</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>Recording, musical</displayed-value>
-       <stored-value>Recording, musical</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>Recording, oral</displayed-value>
-       <stored-value>Recording, oral</stored-value>
+       <displayed-value>Presentación</displayed-value>
+       <stored-value>Presentación</stored-value>
      </pair>
      <pair>
        <displayed-value>Software</displayed-value>
        <stored-value>Software</stored-value>
      </pair>
      <pair>
-       <displayed-value>Technical Report</displayed-value>
-       <stored-value>Technical Report</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>Thesis</displayed-value>
-       <stored-value>Thesis</stored-value>
-     </pair>
-     <pair>
        <displayed-value>Video</displayed-value>
        <stored-value>Video</stored-value>
      </pair>
      <pair>
-       <displayed-value>Working Paper</displayed-value>
-       <stored-value>Working Paper</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>Other</displayed-value>
-       <stored-value>Other</stored-value>
+       <displayed-value>Otros</displayed-value>
+       <stored-value>Otros</stored-value>
      </pair>
    </value-pairs>
 
@@ -400,6 +338,8 @@ it, please enter the types and the actual numbers or codes.</hint>
        <stored-value>other</stored-value>
      </pair>
    </value-pairs>
+
+
 
  </form-value-pairs>
 

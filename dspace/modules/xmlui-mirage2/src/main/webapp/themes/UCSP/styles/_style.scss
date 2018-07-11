@@ -153,3 +153,7 @@ header .navbar-default .navbar-toggle>li>a:hover, header .navbar-default .navbar
 html{
 	overflow-x: hidden;
 }
+
+.thumbnail>img, .thumbnail a>img {
+    max-height: 122px !important;
+}

@@ -2823,6 +2823,18 @@ Cuando se usa QDC para los elementos del repositorio se recomienda el uso de cro
 <message key="xmlui.dri2xhtml.METS-1.0.item-cdu">Materias (CDU)</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-ispartof">Publicado en</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-projectID">Número del acuerdo de la subvención</message>
+<message key="xmlui.ArtifactBrowser.Navigation.browse_type">Tipo</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.type">Tipo</message>
+
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.type">Tipo</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.type.column_heading">Tipo</message>
+<message key="xmlui.ArtifactBrowser.SimpleSearch.filter.type">Tipo</message>
+
+
+
+<message key="xmlui.ArtifactBrowser.SimpleSearch.filter.type">Filtro</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_type">Tipo</message>
+<message key="xmlui.Discovery.AbstractSearch.type_type">Tipo</message>
 
 
 </catalogue>
