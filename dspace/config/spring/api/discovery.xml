@@ -388,7 +388,7 @@
         </property>
     </bean>
 
-   <bean id="searchFilterType" class="org.dspace.discovery.configuration.HierarchicalSidebarFacetConfiguration">
+   <bean id="searchFilterType" class="org.dspace.discovery.configuration.DiscoverySearchFilterFacet">
         <property name="indexFieldName" value="type"/>
         <property name="metadataFields">
             <list>
