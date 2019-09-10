@@ -689,7 +689,7 @@
             <groupId>org.apache.ws.commons.axiom</groupId>
             <artifactId>axiom-api</artifactId>
             <!-- NOTE: SWORDv2 needs 1.2.14, required by Abdera: https://abdera.apache.org/ -->
-            <version>1.2.14</version>
+            <version>1.2.22</version>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
